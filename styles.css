@@ -1,0 +1,77 @@
+
+body{
+  background-color: #f7f7f7;
+  font-family: 'Tenali Ramakrishna', sans-serif;
+  justify-content: center;
+}
+#word{
+  resize: none;
+  font-size: 1.5rem;
+  width: 100%;
+  padding: 0;
+  outline: none;
+    border-color:#C0C0C0;
+  border-left-width: 0;
+  border-right-width: 0;
+font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+
+}
+#textIt{
+  font-size: 1rem;
+}
+.btn{
+  padding-top: 14px;
+  padding-bottom: 10px;
+  font-size: 1.3rem;
+  border-radius: 0.5rem;
+  line-height: 0.4;
+}
+.textS{
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.row{
+  padding-top: 10px;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+h1{
+  padding-top: 10px;
+  padding-left: 40px;
+  background-color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+#wordCount , #wordsLeft, #charCount{
+  font-weight: bold;
+}
+div{
+    font-size: 1.8rem;
+}
+input[type="number"] {
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 1.5rem;
+  font-weight: 200;
+  width: 100px;
+  outline: none;
+  box-shadow: inset 0 -1px 0 0 black;
+}
+.foot{
+  text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  color: grey;
+}
+@media only screen and (max-width: 600px) {
+.row{
+  font-size: 0.1rem;
+}
+}
